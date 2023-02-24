@@ -193,7 +193,7 @@
                         <center>
                             <span class = "encabezado_datos">
                                 <!-- <img  src="{{ storage_path('/logo/sibelis.png') }}" height="55" width="150"/> <br> -->
-                                <!-- <b> SIBELIS SRL <br> -->
+                                <b> DEMO <br>
                                 {{$factura->descripcion}} <br>
                                 No Punto de Venta {{$factura->punto_venta}} <br>
                                 {{$factura->direccion}}<br>

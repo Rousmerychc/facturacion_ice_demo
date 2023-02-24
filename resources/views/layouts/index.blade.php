@@ -9,7 +9,7 @@
 
      <!-- CSRF Token -->
      <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>SIBELIS</title>
+    <title>DEMO</title>
     <!-- mi estilo -->
     <link rel= "stylesheet" type="text/css" href= "{{ asset('css/estilo.css') }}"> 
       <!-- Fuentes -->
@@ -63,7 +63,7 @@
             <div id="sidebar" class="sidebar">
 
                 <div class="logo1">
-                    <h5>SIBELIS</h5>  
+                    <h5>DEMO</h5>  
                 </div>
                 <ul>
                     <li><a href="{{  action('IndexController@index') }}" > <i class="fas fa-home"></i>  Inicio</a></li>
@@ -230,7 +230,7 @@
         </div> 
         
         <div class="logo">
-             <h5>SIBELIS</h5>  
+             <h5>DEMO</h5>  
         </div>
         <div class ="div_login"  >
             <ul >
