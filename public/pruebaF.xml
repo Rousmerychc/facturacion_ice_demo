@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<facturaElectronicaComercialExportacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cabecera>
+    <nitEmisor>1005377028</nitEmisor>
+    <razonSocialEmisor>ORBOL S.A.</razonSocialEmisor>
+    <municipio>LA PAZ</municipio>
+    <telefono>2815540</telefono>
+    <numeroFactura>53</numeroFactura>
+    <cuf>44CA6A83A28C0CFCBD524D556CAD7EA4E2D8045F2172E706766E26D74</cuf>
+    <cufd>BQT5DKjJBQkE=NzDE4RUE4MUU4QUU=Qm80SFhNVENXVUFFDQ0M5QUI4QjE0R</cufd>
+    <codigoSucursal>0</codigoSucursal>
+    <direccion>AV. TARAPACA NRO. S/N&#13;
+ZONA BARRIO:VILLA BOLIVAR YKK</direccion>
+    <codigoPuntoVenta>0</codigoPuntoVenta>
+    <fechaEmision>2022-02-18T12:27:22.013</fechaEmision>
+    <nombreRazonSocial>prueba dolares</nombreRazonSocial>
+    <codigoTipoDocumentoIdentidad>1</codigoTipoDocumentoIdentidad>
+    <numeroDocumento>12345678</numeroDocumento>
+    <complemento xsi:nil="true"/>
+    <direccionComprador>direcion dolar</direccionComprador>
+    <codigoCliente>3</codigoCliente>
+    <incoterm>qwe</incoterm>
+    <incotermDetalle>qwe</incotermDetalle>
+    <puertoDestino>puerto dolar</puertoDestino>
+    <lugarDestino>destino dolar</lugarDestino>
+    <codigoPais>22</codigoPais>
+    <codigoMetodoPago>7</codigoMetodoPago>
+    <numeroTarjeta xsi:nil="true"/>
+    <montoTotal>12.13</montoTotal>
+    <costosGastosNacionales>{"":0}</costosGastosNacionales>
+    <totalGastosNacionalesFob>12.13</totalGastosNacionalesFob>
+    <costosGastosInternacionales>{"":0}</costosGastosInternacionales>
+    <totalGastosInternacionales>0</totalGastosInternacionales>
+    <montoDetalle>12.13</montoDetalle>
+    <montoTotalSujetoIva>0</montoTotalSujetoIva>
+    <codigoMoneda>2</codigoMoneda>
+    <tipoCambio>1</tipoCambio>
+    <montoTotalMoneda>12.13</montoTotalMoneda>
+    <numeroDescripcionPaquetesBultos>fhhgh:fnb,</numeroDescripcionPaquetesBultos>
+    <informacionAdicional>gmgh</informacionAdicional>
+    <descuentoAdicional>0</descuentoAdicional>
+    <codigoExcepcion>0</codigoExcepcion>
+    <cafc xsi:nil="true"/>
+    <leyenda>Ley N° 453: El proveedor debe brindar atención sin discriminación, con respeto, calidez y cordialidad a los usuarios y consumidores.</leyenda>
+    <usuario>2</usuario>
+    <codigoDocumentoSector>3</codigoDocumentoSector>
+  </cabecera>
+  <detalle>
+    <actividadEconomica>001240</actividadEconomica>
+    <codigoProductoSin>99100</codigoProductoSin>
+    <codigoProducto>4</codigoProducto>
+    <codigoNandina>7113190000</codigoNandina>
+    <descripcion>pruducto 1240</descripcion>
+    <cantidad>1.00000</cantidad>
+    <unidadMedida>22</unidadMedida>
+    <precioUnitario>12.13000</precioUnitario>
+    <montoDescuento>0</montoDescuento>
+    <subTotal>12.13000</subTotal>
+  </detalle>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>3TjETJbl176EvmrHCAHa0fS3ccpyxKcn5/p4dkHZXA0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Zu6FyakN0iVkc3Gbrosz6ODq1g0ORJzzSEKWMEvbpsIwTexFzcskf23lm34hnN44oFsoNDvgUPqQ11dbKr5gMpJxCVu7w6sDDuG2E/7FnkclX60IeCSjwL0mhcjKkQSUTiAJqAkxoGypbe6MT8JfIiRwTIdLeByRhcOZGTqkhS9HU/PWCtgZNyKar0INTKZOa9YJLHI2UmpbD0bPF1r28azxf3PXn28ILcrFXURVmHzNOSVMt//3da29wfHwi3r8oArxFNivy1mgK59n93E4LewaqQBDwTaU79O/tw7ngNNYAw5uCyt6Po0ENPG2OhyXpvNKE+8bLtj4UK08FyZp6w==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></facturaElectronicaComercialExportacion>

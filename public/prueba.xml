@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<facturaElectronicaComercialExportacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cabecera>
+    <nitEmisor>1005377028</nitEmisor>
+    <razonSocialEmisor>ORBOL S.A.</razonSocialEmisor>
+    <municipio>LA PAZ</municipio>
+    <telefono>2815540</telefono>
+    <numeroFactura>53</numeroFactura>
+    <cuf>44CA6A83A28C0CFCBD524D556CAD7EA4E2D8045F2172E706766E26D74</cuf>
+    <cufd>BQT5DKjJBQkE=NzDE4RUE4MUU4QUU=Qm80SFhNVENXVUFFDQ0M5QUI4QjE0R</cufd>
+    <codigoSucursal>0</codigoSucursal>
+    <direccion>AV. TARAPACA NRO. S/N&#13;
+ZONA BARRIO:VILLA BOLIVAR YKK</direccion>
+    <codigoPuntoVenta>0</codigoPuntoVenta>
+    <fechaEmision>2022-02-18T12:27:22.013</fechaEmision>
+    <nombreRazonSocial>prueba dolares</nombreRazonSocial>
+    <codigoTipoDocumentoIdentidad>1</codigoTipoDocumentoIdentidad>
+    <numeroDocumento>12345678</numeroDocumento>
+    <complemento xsi:nil="true"/>
+    <direccionComprador>direcion dolar</direccionComprador>
+    <codigoCliente>3</codigoCliente>
+    <incoterm>qwe</incoterm>
+    <incotermDetalle>qwe</incotermDetalle>
+    <puertoDestino>puerto dolar</puertoDestino>
+    <lugarDestino>destino dolar</lugarDestino>
+    <codigoPais>22</codigoPais>
+    <codigoMetodoPago>7</codigoMetodoPago>
+    <numeroTarjeta xsi:nil="true"/>
+    <montoTotal>12.13</montoTotal>
+    <costosGastosNacionales>{"":0}</costosGastosNacionales>
+    <totalGastosNacionalesFob>12.13</totalGastosNacionalesFob>
+    <costosGastosInternacionales>{"":0}</costosGastosInternacionales>
+    <totalGastosInternacionales>0</totalGastosInternacionales>
+    <montoDetalle>12.13</montoDetalle>
+    <montoTotalSujetoIva>0</montoTotalSujetoIva>
+    <codigoMoneda>2</codigoMoneda>
+    <tipoCambio>1</tipoCambio>
+    <montoTotalMoneda>12.13</montoTotalMoneda>
+    <numeroDescripcionPaquetesBultos>fhhgh:fnb,</numeroDescripcionPaquetesBultos>
+    <informacionAdicional>gmgh</informacionAdicional>
+    <descuentoAdicional>0</descuentoAdicional>
+    <codigoExcepcion>0</codigoExcepcion>
+    <cafc xsi:nil="true"/>
+    <leyenda>Ley N° 453: El proveedor debe brindar atención sin discriminación, con respeto, calidez y cordialidad a los usuarios y consumidores.</leyenda>
+    <usuario>2</usuario>
+    <codigoDocumentoSector>3</codigoDocumentoSector>
+  </cabecera>
+  <detalle>
+    <actividadEconomica>001240</actividadEconomica>
+    <codigoProductoSin>99100</codigoProductoSin>
+    <codigoProducto>4</codigoProducto>
+    <codigoNandina>7113190000</codigoNandina>
+    <descripcion>pruducto 1240</descripcion>
+    <cantidad>1.00000</cantidad>
+    <unidadMedida>22</unidadMedida>
+    <precioUnitario>12.13000</precioUnitario>
+    <montoDescuento>0</montoDescuento>
+    <subTotal>12.13000</subTotal>
+  </detalle>
+</facturaElectronicaComercialExportacion>

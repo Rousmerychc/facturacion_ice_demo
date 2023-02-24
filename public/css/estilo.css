@@ -1,0 +1,917 @@
+
+.pruebaborder{
+    border: solid 1px black !important;
+}
+/*para estilo del mapa*/
+#map {
+    width: 100%;
+    height: 380px;
+    box-shadow: 5px 5px 5px #888;
+ }
+.body{
+    font-size: 0.8rem;
+}
+.pruebalogin{
+   background-color: #0979b0;
+   margin-top: 80px;
+}
+.pruebalogin1{
+    background-color: #0979b0;
+}
+.inputcobro {
+    width:100%;
+    padding: 5%;
+    border: 0px;
+}
+.tdcolumnacobro{
+    border-radius: 4px;
+    border: solid 1px rgb(128, 127, 127);
+}
+.botonesindex{
+    display: flex;
+}
+#btneditar{
+    margin-right: 8px;
+}
+
+.titulosagregar{
+    padding: 5px;
+    margin: 0px 0px 20px 0px;
+    box-shadow: #bbb  1px 2px 2px 1px;
+    border-radius: 5px;
+    background-color: white !important;
+}
+.titulobotonagregar{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+    margin: 0px 0px 20px 0px;
+    box-shadow: #bbb  1px 2px 2px 1px;
+    border-radius: 5px;
+    background-color: white !important;
+}
+.titulobotonagregar a{
+    font-weight: 600;
+    color: white;
+}
+.botonespadig{
+    padding: 0px 30px 0px 30px !important;
+    border:  solid white 1px!important;
+    font-size: 0.8rem !important;
+}
+
+.divbotonagregar{
+    margin: 0px;
+    padding: 15px 15px 5px 5px;
+}
+.alert{
+    position: absolute !important;
+    margin: 0px;
+    padding: 0px;
+}
+.pdf{
+    color: red;
+    font-size: 18px;
+}
+
+.div_login li{
+    margin: 0px;
+    padding: 0px 10px 0px 0px;
+    list-style:none;
+}
+/*para los titulos de las paginas*/
+.titulos{
+    color: #0979b0;
+    padding: 15px 15px 15px 15px;
+}
+
+.titulos2{
+    color: #32cf27;
+    padding: 15px 15px 15px 15px;
+}
+
+.table td{
+    padding-top: 5px !important ;
+    padding-bottom: 5px !important ;
+    font-size: 0.8rem !important;
+}
+
+.table thead{
+    font-weight: 600;
+}
+
+.table1{
+    width: 100% !important;
+}
+.table1 td{
+    padding-top: 5px !important ;
+    padding-bottom: 5px !important ;
+    font-size: 0.7rem !important;
+}
+
+.color_table{
+    background-color: #828282;
+    color: white;
+}
+
+.table1 thead th{
+    font-weight: 600;
+    padding: 5px 0px 5px 15px;
+}
+
+
+.table-responsive{
+    width: 100% !important;
+    font-size: 0.8rem !important;
+    background-color: white;
+    box-shadow: #bbb  1px 2px 2px 1px;
+    border-radius: 5px;
+}
+.divformulario{
+
+    padding: 15px 15px 15px 20px;
+    margin: 0px 0px 30px 0px;
+    box-shadow: #bbb  1px 2px 2px 1px;
+    border-radius: 5px;
+    background-color: white;
+}
+/*para el reporte movimiento salida*/
+.alinacionderecha{
+    text-align: right;
+    width: 15%;
+    /* padding-right:3% !important ;*/
+}
+.alinacionderecha1{
+    text-align: right;
+
+    /* padding-right:3% !important ;*/
+}
+
+.alinacionderechapocosdatos{
+    text-align: right;
+    width: 22%;
+    /* padding-right:3% !important ;*/
+}
+.alinacionderechat{
+    text-align: right;
+    padding-left:15px ;
+    font-weight: bold;
+
+}
+
+.anchocolumna{
+    width:10px !important;
+}
+/*************/
+.prue{
+
+    border:1px solid rgba(112, 111, 111, 0.2);
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    padding: 3px;
+
+}
+
+/*div que tiene el nombre de la empresa y el login*/
+.divmenuloginpatallachicaylogoconpatallagrande{
+    display: flex;
+}
+
+.botones_atras_guardar{
+    display: flex;
+    justify-content: flex-end;
+}
+.botonatras{
+    margin: 0px 30px 0px 0px;
+}
+/*movimiento cobros*/
+
+* {
+    padding: 0;
+    margin: 0;
+    }
+/*Para los reportes*/
+.divdatosfiltro{
+    display: flex;
+   /* border: solid 1px black;  */
+}
+.botonreportesfiltro{
+    padding: 0px 0px 15px 10px;
+}
+.botonreportesfiltro1{
+    padding: 15px 0px 0px 10px;
+}
+.botonpdf{
+    padding: 10px;
+    color: red;
+}
+.botonexcel{
+    padding: 10px;
+    color:green;
+    font-size: 1rem;
+}
+.datosfiltro{
+
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid 1px black; */
+    width: 100%;
+}
+.empresa{
+    color: #0979b0;
+    padding: 15px 15px 15px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+/* titulos que aparecen en sima de la consulta*/
+.tituloreporte{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px;
+}
+/*aviso de registro anulado */
+.registroanulado{
+    margin: 12px 0px 0px 10px !important;
+    width: 220px;
+}
+/*para poner tablas con pocos datos al centro*/
+.tablacenter{
+    display: flex;
+    justify-content:center !important;
+    border: solid 1px black;
+}
+/*para datatales */
+.ajaxdatables{
+    display: flex;
+    justify-content:flex-end ;
+    padding-left:20px ;
+}
+.tamañomenuajax{
+    padding-top : 6px;
+    padding-right: 30px;
+}
+.parachecks{
+    margin: 0px 15px 0px 15px;
+}
+.inputdetallerecepcion{
+    padding: 0px;
+    margin: 0px;
+    width: 110px;
+}
+.recepminralmodalti{
+    padding-left: 20px;
+}
+.divliquidaciones1{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin: 0px !important;
+}
+.inputliquidaciones{
+    height: 26px !important;
+}
+.fondoinputliquidaciones{
+    background-color: white !important;
+}
+
+.retenciones{
+    width: 60%;
+    /* border: solid 1px black !important; */
+}
+.retenciones1{
+    width: 40%;
+    padding-left:10px ;
+    /* border: solid 1px black !important; */
+}
+.liquidopagable{
+    display: flex;
+    align-items: flex-end;
+}
+.liquimodalselect {
+    padding: 13px;
+    width: 350px;
+    border: solid 1px black;
+}
+.div11{
+    width: 300px;
+}
+.divlipago{
+    padding-top: 3px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-bottom: 3px !important;
+    margin: 0px !important;
+}
+.resportestitulos{
+    color: #2E88C7;
+}
+.reportepdf{
+    padding: 10px;
+}
+.reporteexcel{
+    padding: 10px;
+}
+
+
+    .divlogin1{
+        width: 50%;
+    }
+    .divpagina{
+        margin: 0px;
+        padding: 20px;
+        width:100%;
+    }
+    .desplegable_menu{
+        display: none;
+    }
+    .estructura_menu{
+        display: flex;
+    }
+    
+    .divloginpagina{
+        display:block;
+        width: 100%;
+      
+    }
+    
+    .divmenupagina{
+        display: flex ;
+        width: 100%;
+    }
+    /* cambia color */
+    .div_login{
+        padding: 1rem;
+        background-color: #0979b0;
+        color: white;
+        cursor:pointer;
+        width:100%;
+        text-align: right;
+        height: 50px;
+    }
+    .div_login ul{
+        padding: 0px 10px 10px 10px;
+        margin: 0x;
+        text-align: right;
+    }
+    /* fonde pagina que cambia */
+    .paginaindex{
+        width:100%;
+        background-color: #f4f4f2;
+    }
+    .divlogologin{
+       display: inline-flex;
+
+    }
+    /*cambia color*/
+    .logo{
+        font-size: 1rem;
+        padding: 10px 25px 5px 20px;
+        background-color: #0979b0;
+        color:white;
+
+        width:600px;
+
+    }
+    /* PARA EL MENU*/
+    .menuenlaces{
+        display: flex;
+    }
+    .padding_a_menu{
+      margin: 0px;
+      padding: 0px 5px 0px 8px;
+       width: 155px !important;
+       height: auto !important;
+   }
+   .flechamenu{
+       margin: 0px;
+       padding: 0px 0px 2px 0px;
+       font-size: 0.7rem;
+   }
+    .contenedor_menu{
+        background-color:  white;
+        min-height: 92vh; /*Como mínimo, el documento ocupará toda la pantalla*/
+        width: 270px;
+        padding: 0px;
+        max-height: 100%;
+        border: solid 3px #bbb; 
+        border-radius: 5px;
+        
+        
+    }
+
+
+    /*deplegable opciones*/
+    .menu1{
+        border-top: solid 1px white;
+    }
+
+    .menu1 a{
+        text-decoration: none !important;
+        color:black;
+        display: block;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border-bottom: solid 1px rgb(230, 229, 229);
+       
+        border-bottom-right-radius:5px;
+        border-top-right-radius:5px;
+       ;
+    }
+    /* cambia color */
+    .menu1 a:hover{
+        text-decoration: none !important;
+        color:white;
+        background-color: #0979b0;
+    }
+
+    .menu1 ul, .menu1 li{
+        margin:0;
+        padding:0;
+        list-style:none inside;
+        
+    }
+
+    .menu1 ul {
+        display: block;
+        text-align: left;
+    }
+
+    .menu1 li a {
+        display: block;
+        text-decoration: none;
+        font-size: 0.8rem;
+        line-height: 2rem;
+    }
+
+    /*cambia color  */
+    .menu1 li ul {
+        background-color: rgb(247, 245, 245);
+    }
+
+    .menu1 li li a{
+        font-size: 0.8rem;
+        line-height: 1.7rem;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .menu1 li:focus li a {
+        font-size: 0.8rem;
+        line-height: 1.7rem;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+        /*PARA LA TABLA*/
+
+    .divtablapantallachica{
+        display: none;
+    }
+    .inputcobrof {
+        width:100%;
+        padding: 5%;
+        border: 0px;
+    }
+    .divdatosfiltroybotones{
+        display: flex;
+        /* justify-content:space-between; */
+    }
+    .divanulada{
+        padding: 0px;
+        width: 50%;
+        /* border: solid 1px black; */
+    }
+    .tablaconpocosdatos{
+        width:70% !important;
+    }
+    /*formulario de cliente y responsable*/
+    .formclie{
+        width: 100%;
+        display: flex;
+    }
+    .formclie1{
+        width: 50%;
+        display: row;
+        /* margin-left: 50px; */
+        /* padding-left: 50px; */
+    }
+    .divliquidaciones{
+        width: 50%;
+        display: row;
+
+    }
+    .divliquidacionesliquido{
+
+        display: flex;
+        justify-content: flex-end ;
+        /* border: solid 1px black; */
+    }
+    .logotamanoinicio{
+        height:100px ;
+        width: 200px;
+    }
+    .logoinicio{
+        display: flex;
+        justify-content: center;
+        color: #3A506B !important;
+        margin: 50px 20px 20px 20px;
+    }
+    .gastocreate{
+        display:flex;
+    }
+    .gastodiv{
+        border-right: solid 1px grey;
+        width: 50%;
+        padding-left: 20px;
+        padding-right: 30px;
+    
+    }
+    .gastodiv1{
+        /* border: solid 1px red; */
+        width: 50%;
+        padding-left: 50px;
+
+    }
+    .titulonrofac{
+        color: hsl(205, 65%, 31%);
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    
+    .labelliquidaciones {
+        padding: 0px 0px 0px 10px !important;
+        margin: 0px !important;
+    }
+    .cliente_fac{
+        width: 80%;
+        padding: 0px 5px 0px 5px;
+        margin-left: 12px !important;
+        border-left: solid 1px rgb(153, 145, 145);   
+    }
+    .cliente_fac_ingresos{
+        width: 100%;
+        padding: 0px 5px 0px 5px;
+        margin-left: 12px !important;
+        border-left: solid 1px rgb(153, 145, 145);   
+    }
+    .cliente_fac_datos{
+        display: flex;
+    }
+    .cliente_fac1{
+        width: 40%;
+        padding: 0px 15px 0px 20px;
+        margin-left: 10px !important;
+       
+    }
+    .datos_fac{
+        width: 18%;
+        padding: 0px 5px 0px 20px;
+        
+    }
+    .datos_fac_ingresos{
+        width:50%;
+        padding: 0px 5px 0px 20px;
+        
+    }
+    
+    .texto_titulo_fecha_nrofac{
+        text-align: right !important;
+    }
+    .titulo_form_fac{
+        border-bottom:solid 1px rgb(218, 210, 210) ;
+        margin-bottom: 20px;
+        font-size: 0.80rem !important;
+    }
+
+    .boton_agregar_producto{
+        margin: 25px;
+    }
+    .boton_agregar_cliente{
+        margin-top: 28px;
+    }
+    .sinborde{
+        border: 0;
+    }
+    .input_desc_fac{
+        width : 250px;
+    }
+    .input_uni_subt_fac{
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+        margin :0px !important;
+    }
+    .div_gastos_totales_fac{
+        /* border: solid 1px black; */
+        padding: 15px 15px 0px 20px;
+        margin: 0px 0px 0px 0px;
+        width: 50%;
+    }
+    .borde_tablap{
+       border: none !important;
+    }
+    .padding_descrip_bultos{
+        padding-bottom: 5px;
+    }
+    .inf_adicional{
+        padding-top: 25px;
+    }
+    .textomayusculas{
+        text-transform: uppercase;
+    }
+    
+    .padding_tabla{
+        padding: 5px 5px 5px 5px !important;
+        /* padding-right: 0px !important ; */
+        margin-right: 0px !important;
+    }
+    .textoprefactura {
+        font-size: 0.80rem !important;
+    }
+    
+    .texto_tabla{
+        font-size: 0.60rem !important;
+    }
+    .tamano_letra_fatura{
+        font-size: 0.71rem !important;
+    }
+    .input_descripcion_fac{
+        padding: 5px;
+    }
+    .input_facturacion{
+        font-size: 0.6rem !important;
+        height: 25px !important;
+        padding-top: 1px !important;
+        padding-bottom: 1px !important;
+        padding-left: 5px !important;
+        padding-right: 3px !important;
+
+        margin: 0px !important;
+       
+    }
+    .input_facturacion1{
+        font-size: 0.65rem !important;
+        height: 20px !important;
+        padding-top: 1px !important;
+        padding-bottom: 1px !important;
+        padding-left: 5px !important;
+        padding-right: 3px !important;
+
+        margin: 0px !important;
+       
+    }
+    .input_facturacion::placeholder{
+        font-size: 0.6rem !important; 
+    }
+    .div_complemento{
+        width:90px !important ;
+    }
+    .div_tipo_pago{
+        width:250px !important ;
+    }
+    .borde{
+        border: solid 1px black; 
+    }
+    .tabla_sincronizacion1{
+        width: 120px;
+    }
+    .tabla_sincronizacion2{
+        width: 300px;
+    }
+    .tabla_sincronizacion3{
+        width: 200px;
+    }
+/*------------ PARA PANTALLA CHICA----------*/
+@media screen and (max-width: 500px)  {
+    .logotamanoinicio{
+        height:150px ;
+        width: 300px;
+    }
+    .divlogin1{
+        width: 90%;
+    }
+    .divpagina{
+        margin: 0px;
+        padding:10px;
+        width: 100%;
+    }
+
+    .div_login{
+
+        padding: 1rem;
+        background-color: #0979b0;
+        color:white;
+        cursor:pointer;
+        width:40%;
+        text-align: right;
+        height: 60px;
+    }
+    .div_login ul{
+        padding: 0px 10px 10px 10px;
+        margin: 0x;
+        text-align: left;
+
+    }
+    .logo{
+        display: none;
+    }
+    .logo1{
+        font-size: 1rem;
+        padding:10px 5px 2px 20px;
+        background-color: #0979b0;
+        color: white;
+        width:170px;
+        border-bottom: solid 1px black;
+
+    }
+    .contenedor_menu{
+        display: none;
+    }
+
+    input#abrir-cerrar {
+        visibility:hidden;
+        position: absolute;
+        top: -9999px;
+    }
+    .desplegable_menu {
+        display: flex;
+        width:100%;
+        height: 60px;
+    }
+    label[for="abrir-cerrar"] {
+        cursor:pointer;
+        padding: 1rem;
+        background-color: #0979b0;
+        color:white;
+        display:inline-block;
+        width:100%;
+        height:60px;
+
+    }
+
+    .cerrar {
+        display:none;
+    }
+
+    #sidebar {
+        width:0;
+    }
+
+
+    input#abrir-cerrar:checked ~ #sidebar {
+        width:170px;
+    }
+
+
+
+    input#abrir-cerrar:checked + label[for="abrir-cerrar"]{
+        margin-left:170px;
+        transition: margin-left .4s;
+    }
+
+
+    input#abrir-cerrar:checked + label[for="abrir-cerrar"] .cerrar {
+        display:inline;
+    }
+
+    input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
+        display:none;
+    }
+
+    .sidebar {
+        position: fixed;
+        width: 0;
+        top: 0;
+        left: 0px;
+        z-index: 5;
+        background-color: #0979b0;
+        overflow-x: hidden;
+        transition: 0.4s;
+        padding: 1rem 0;
+        box-sizing:border-box;
+        min-height: 100vh;
+        max-height: 100vh;
+
+    }
+
+    .sidebar ul, .sidebar li{
+        margin:0;
+        padding:0px;
+        list-style:none inside;
+    }
+
+    .sidebar ul {
+        display: block;
+        width: 80%;
+        min-width:170px;
+    }
+
+    .sidebar a {
+        display: block;
+        font-size: 0.8rem;
+        color: #eee;
+        text-decoration: none;
+        padding: 8px ;
+    }
+
+    .sidebar a:hover{
+        color:white;
+        background-color: #E9C46A;
+        text-decoration: none;
+    }
+
+    .abrir-cerrar {
+        color: #2E88C7;
+        font-size:1rem;
+    }
+
+
+    .sidebarli a {
+        display: block;
+        text-decoration: none;
+        font-size: 0.8rem;
+        line-height: 2.5rem;
+    }
+
+    .sidebar li  ul {
+        background-color: #2A9D8F;
+    }
+
+    .sidebar li li a{
+        font-size: 0.8rem;
+        line-height: 1.7rem;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .sidebar li:focus li a {
+        font-size: 0.8rem;
+        line-height: 1.7rem;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    /*.divtabla{
+        display: none;
+    }
+*/
+    .divtablapantallachica{
+        display: column;
+        width: 100%;
+    }
+
+    .tr1{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .ocultatd{
+        display:none;
+    }
+    .inputcobrof {
+        border: 0px;
+        width:80px;
+        padding: 5%;
+    }
+    .divdatosfiltroybotones{
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    .divanulada{
+        padding: 0px;
+        width: 100%;
+    }
+    .tablaconpocosdatos{
+        width:100% !important;
+    }
+    /*formulario de cliente y responsable*/
+    .formclie{
+        width: 100%;
+        flex-direction:column;
+    }
+    .formclie1{
+        width:100%;
+        display: row;
+    }
+    .divliquidaciones{
+        width: 100%;
+        display: row;
+    }
+    .gastocreate{
+        display:block;
+    }
+    .gastodiv{  
+        width: 100%;
+        padding: 0%;
+        border: none;
+    }
+    .gastodiv1{
+        /* border: solid 1px red; */
+        padding: 0%;
+        width: 100%;
+    }
+}
+
+
